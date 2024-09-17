@@ -86,8 +86,8 @@ h1 {
 
 /* Estilos para a imagem na mensagem especial */
 #special-image {
-    width: 100%;
-    max-width: 300px; /* Limita o tamanho máximo da imagem */
+    width: 80%; /* Ajusta a largura da imagem para 80% da largura do contêiner */
+    max-width: 200px; /* Define um tamanho máximo menor para a imagem */
     height: auto;
     border-radius: 8px; /* Bordas arredondadas */
     margin-bottom: 15px; /* Espaço abaixo da imagem */
@@ -107,3 +107,4 @@ h1 {
     font-size: 1.2em; /* Tamanho da fonte */
     text-align: center; /* Centraliza o texto e a imagem */
 }
+
