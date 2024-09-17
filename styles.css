@@ -1,0 +1,77 @@
+body {
+    background-color: #00274d; /* Azul escuro */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #00aaff; /* Azul claro para o título */
+    font-size: 2em;
+}
+
+#moving-button {
+    position: absolute;
+    background-color: #0056b3; /* Azul escuro para o botão */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+#moving-button:hover {
+    background-color: #003d7a; /* Azul mais escuro para o hover */
+}
+
+#special-message {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #004080; /* Azul escuro para a mensagem */
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #moving-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    #special-message {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #moving-button {
+        padding: 6px 12px;
+        font-size: 0.8em;
+    }
+
+    #special-message {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
