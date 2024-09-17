@@ -44,6 +44,14 @@ h1 {
     text-align: center;
 }
 
+#special-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.5em;
@@ -74,4 +82,28 @@ h1 {
         font-size: 0.9em;
         padding: 10px;
     }
+}
+
+/* Estilos para a imagem na mensagem especial */
+#special-image {
+    width: 100%;
+    max-width: 300px; /* Limita o tamanho máximo da imagem */
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos para a mensagem especial */
+#special-message {
+    display: none; /* Oculta a mensagem inicialmente */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #004080; /* Azul escuro para a mensagem */
+    border-radius: 8px; /* Bordas arredondadas */
+    color: #ffffff; /* Cor do texto */
+    font-size: 1.2em; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto e a imagem */
 }
